@@ -1,0 +1,8 @@
+
+#map-container {
+  display: block;
+  background-color: gainsboro;
+  width: 800px;
+  height: 500px;
+  border: rgb(181, 181, 181) 0.01rem solid;
+}

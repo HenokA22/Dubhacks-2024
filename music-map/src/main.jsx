@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import ErrorPage from './routes/ErrorPage'
 import Login from './routes/Login'
+import Dashboard from './routes/Dashboard'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     path: "login",
     element: <Login />
   },
+  {
+    path: "dash",
+    element: <Dashboard />
+  }
 ])
 
 createRoot(document.getElementById('root')).render(

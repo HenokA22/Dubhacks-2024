@@ -4,3 +4,24 @@
   padding: 2rem;
   text-align: center;
 }
+
+#navbar, #footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar {
+  border-bottom: gainsboro 0.01rem solid;
+  margin-bottom: 2rem;
+
+  div {
+    display: inline-block;
+  }
+}
+
+#footer {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
